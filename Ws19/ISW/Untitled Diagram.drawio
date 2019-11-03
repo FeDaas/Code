@@ -1,1 +1,29 @@
-<mxfile host="www.draw.io" modified="2019-11-03T16:24:44.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="c9W8u4GdJO_-oEI5Sb-n" version="12.1.9" type="github" pages="1"><diagram id="cNJkFCSaknwnPunpVot7" name="Page-1">3VjbctsgEP0aP6ZjyZZjPzp2LtNpMpna06aPWFpLTBCoCPnSr+8igXV1LhOnyTQvgbPLAnuWg3BvMIt315Ik0a0IgPXcfrDrDeY9F//GY/ynkX2BOM6wXyChpIHBSmBB/4ABrVtGA0hrjkoIpmhSB33BOfiqhhEpxbbuthasPmtCQmgBC5+wNvqTBioq0LF7XuI3QMPIzuyMJoUlJtbZ7CSNSCC2FWhw2RvMpBCqaMW7GTCdPZuXYtzVEethYRK4esmA28fJlPzw/kyW8exmOHG/f/Wuz7wiyoawzGy4544YxrtYSWyFumWRtcCJcB9qb5Iz+p0JazhLc+qm6OAMk11pbEZZWeAq476igqf5qMKIq181ByBWzNyI01pfiaSR2N6LR4gFn4MilKVtH18CUWC82mYsZHjC/BHIifM/J4qcPvXfaKoXKdb6/OX196lyWEXcWjJdKTIegD4sfTRvI6pgkRBfW7cobohFKmbYc7BJGA05thmsy2AbkAp2R4+nczj0KJcgYlByjy52gBVGo5Rj092WquNMDBZVFGdglZIYpQsPoUsxwIbRg1dow+ioNry4EsddlahLBDjhKfUjdbTUGuxgYlWdglRJrKyZYEIiwgUHvQDKWAOyVPlIBCB+oWmiqPBTY4hpEOhpOjmvV8UpeB7XeR61eR520Oy+F8vnb2f54/WebKxU56r2WjVPt8h1+4YQcQKK6jV/iFSdVv/bct+V5S5CnlrsHYmh52Ll9Zf7xLTusniFB023m+5LSSg3tv4iz7puzaqZ7himPfEywa+n/1T8h95nE//xO4l//j32Zu2XgPOQVe6gCUsE5SpPgXfR8+aao0yJYi1dlDWvACU0xSkyTnm41J352fBE1I6e1XvH+ZeCP+lgtpFw4MFUv530rclIimTl9y2Rqg1XWMGMyP2DoSTv/NKdL57tzndV43xvezuqHmwMbFdGYa8cpDt2TLFmCFqvtwYvuC+RSR+efwPh9kJQz92UbZ4rRHodPFpMAiOKburL7SLXzHCvS/r45+GhrGyIYptmVPUZ2Aw0aQRqSkiRh1YgZJ7sK27myDWr8ZCYrgLFbvneLdzLnw0Gl38B</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-03T16:40:02.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="RMloGYhnDoAM95kBjTu3" version="12.1.9" type="github" pages="1">
+  <diagram id="cNJkFCSaknwnPunpVot7" name="Page-1">
+    <mxGraphModel dx="2288" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Mk9AaV5z9TmCH492RJ5G-5" value="&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Functions:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;showPokemonDetails&lt;br&gt;createPokemon&lt;br&gt;deletePokemon&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Data:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;List of all Pokemon&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="190" height="310" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mk9AaV5z9TmCH492RJ5G-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Listenansicht&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mk9AaV5z9TmCH492RJ5G-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Functions:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;savePokemonData&lt;br&gt;deletePokemon&lt;br&gt;swap&lt;br&gt;competition&lt;br&gt;editPokemon&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Data:&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Name, Type, Number,&lt;br&gt;Trainer, Swap, Competition,&lt;br&gt;Swapallow&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="80" width="190" height="310" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mk9AaV5z9TmCH492RJ5G-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Detaiansicht&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" parent="1" vertex="1">
+          <mxGeometry x="460" y="60" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mk9AaV5z9TmCH492RJ5G-9" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Mk9AaV5z9TmCH492RJ5G-5" target="Mk9AaV5z9TmCH492RJ5G-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint"/>
+            <mxPoint x="190" y="410" as="targetPoint"/>
+            <Array as="points"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
