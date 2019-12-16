@@ -1,0 +1,80 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = de_DE
+
+\documentclass{scrreprt}
+
+\usepackage{blindtext,booktabs,color,nicefrac,polyglossia,setspace,xltxtra,yfonts,hyperref,tabulary,setspace,makeidx,}
+
+\makeindex
+
+\setmainlanguage{german}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\setsansfont[Mapping=tex-text]{Linux Biolinum O}
+
+\onehalfspacing
+
+
+
+
+\begin{document}
+	
+\begin{titlepage}
+	\vspace*{2cm}
+	\large
+	\begin{center}
+		---	Dies ist ein Schmutztitel ---
+	\end{center}
+\end{titlepage}
+
+\begin{titlepage}
+	
+	\begin{centering}
+		\doublespacing
+		\begin{bfseries}
+			\Large 
+			Ruprecht-Karls-Universität Heidelberg \\
+			Fakultät für Mathematik und Informatik \\ 
+			Institut für Informatik \\[3cm]
+			Masterarbeit \\
+			\Huge 
+			Titel Deutsch \\
+			Titel Englisch \\
+		\end{bfseries}
+	\end{centering}
+	
+	\begin{table}[b]
+		\doublespacing
+		\large
+		\begin{tabular}{ll}
+			Name: & Max Mustermann \\
+			Matrikelnummer: & 0000000 \\
+			BetreuerIn: & Martha Musterfrau \\
+			Datum der Abgabe: & 01.01.1999
+		\end{tabular}
+	\end{table}
+	
+\end{titlepage}
+
+
+\subsection*{Abstract}
+Dieses Dokument dient der Übung des Satzes von umfangreichen Projekten\index{Projekten} in \LaTeX\index{LaTeX@\LaTeX}. Es gehört zum siebten Übungszettel des \LaTeX-Kurses im Wintersemester 2016\,/\,17. Inhaltlich hat es so ziemlich nichts zu bieten, es könnte aber interessant sein, sich den zugehörigen Sourcecode mal anzusehen, da er eine Menge interessanter \LaTeX-Kommandos enthält.
+
+
+\tableofcontents
+
+
+\input{chapters/chapter1}
+\include{chapters/chapter2}
+\input{chapters/chapter4}
+
+
+\appendix 
+\listoffigures 
+\listoftables
+
+\printindex
+
+
+\end{document}

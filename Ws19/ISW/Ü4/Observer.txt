@@ -1,82 +1,17 @@
-Observer log:
+public static class MyDialogFragment extends DialogFragment
+{
+    static MyDialogFragment newInstance()
+    {
+        return new MyDialogFragment();
+    }
 
-Startzustand:
-  Driver: JJ
-  Observer: Felix
-
-Beginn des Protokolls:s
-  - Herunterladen der bereitgestellten files
-  - Klammersetzung fixen
-  - erstlle DetailActivity in ui
-  - Erstelle Keks button
-
-  // TAUSCH
-
-  - Knopf positionieren
-    -> Constraint Layout
-    -> Runder Knopf
-    -> Ersetzen durch floatingActionButton
-
-  //TAUSCH
-
-  - Knopf clickable setzen
-  - Knopf in main erstellen und onClickEvent overriden
-  - erstelle intent für CreateActivity
-
-  // TAUSCH
-
-  - Einfügen der TextViews in CreateActivity
-  - Einfügen des Spinner in CreateActivity
-  - Einfügen der Types als String im Spinner
-  - Typwahl über Knöpfe
-
-  // TAUSCH
-
-  - Ersetzen des Type-Spinners durch RadioButtons
-  - einsetzen der Bilder in die Buttons
-
-  // TAUSCH
-
-  - Selektierte Versionen der Bilder erstellen
-  - onClickEvent Erstellen
-  - Trainer dynamisch in Spinner füllen
-
-  // TAUSCH
-
-  - Save-Knopf hinzufügen
-  - createPokemon
-  - Fehlermeldung bei nicht vollständiger Eingabe
-  - Pokemon erstellen beim save knopf
-  - Delete knopf in mainActivity erstellen
-  - Erstelle onClickEvent für Cardview
-
-  // TAUSCH
-
-  - Remove und Details Knopf ein und ausfahrbar
-
-  // Tausch
-
-  - delete Button ausführbar
-  - delete Button fahren ein wenn ein anderer ausfährt
-
-  // TAUSCH
-
-  - Details Ansicht Design
-  - hinzufügen aller detail ansicht elemente
-
-  // TAUSCH
-
-  - onClickEvent für detail-button erstellen
-  - Mitgabe eines Pokemons hinzufügen
-
-  // TAUSCH
-  - Zuweisung der TextViews in der Detailansicht
-  - Anpassen des Layouts
-
-  // TAUSCH
-
-  - Automatische Größenanpassung des Namens (Details Activity)
-
-  // TAUSCH
-
-  - 
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) 
+            {
+              View v = inflater.inflate(R.layout.hello_world, container, false);
+              View tv = v.findViewById(R.id.text);
+              ((TextView)tv).setText("This is an instance of MyDialogFragment");
+              return v;
+            }
+}

@@ -1,0 +1,4 @@
+Ansicht im Ui hinzufügen durch plugin(?)
+
+-gibt es Qgraficsscene oder etwas vergleichbares
+-Code Conventions

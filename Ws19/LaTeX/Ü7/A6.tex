@@ -1,0 +1,50 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = de_DE
+
+\documentclass{scrreprt}
+
+\usepackage{blindtext,booktabs,color,nicefrac,polyglossia,setspace,xltxtra,yfonts,hyperref,}
+
+\setmainlanguage{german}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\setsansfont[Mapping=tex-text]{Linux Biolinum O}
+
+\onehalfspacing
+
+
+
+
+\begin{document}
+	
+\extratitle{\centering Dies ist ein Schmutztitel \\ -- Max Mustermann --}
+	
+\titlehead{\Large Universität Schlauenheim}
+\subject{Masterarbeit}
+\title{Risikomanagement in Zeiten von Social Media}
+\subtitle{Design interaktiver Apps für Banken und
+	Versicherungen}
+\author{cand.\,stup. Uli Ungenau}
+\date{30. Februar 2017}
+\publishers{Betreut durch Prof.\,Dr.\,rer.\,stup. Naseweis}
+
+\maketitle
+
+
+\subsection*{Abstract}
+Dieses Dokument dient der Übung des Satzes von umfangreichen Projekten in \LaTeX\index{LaTeX@\LaTeX}. Es gehört zum siebten Übungszettel des \LaTeX-Kurses im Wintersemester 2016\,/\,17. Inhaltlich hat es so ziemlich nichts zu bieten, es könnte aber interessant sein, sich den zugehörigen Sourcecode mal anzusehen, da er eine Menge interessanter \LaTeX-Kommandos enthält.
+
+
+\tableofcontents
+
+
+\input{chapters/chapter1}
+\include{chapters/chapter2}
+\input{chapters/chapter4}
+
+
+\appendix \listoffigures \listoftables
+
+
+\end{document}

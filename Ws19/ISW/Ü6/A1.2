@@ -1,0 +1,69 @@
+Aufgabe 1
+
+1.  Die abstrakte Klasse Portrayable implementiert die Funktionen der Klassen Nameable, Rateable, Identifiable und Parcelable.
+2.  Performer erweitert die Klasse Portrayable.
+3.  Movie erweitert ebenfalls die Klasse Portrayable.
+4.  Ein Performer ist immer mindestens einem Moive zugeordnet, was in setupAssociations sichergestellt wird.
+5.  Ein Movie kann eine beliebige anzahl an damit assoziierten Performern haben.
+
+Aufgabe 2
+
+1.  Movie erbt von Portrayable
+
+2.  Portrayable ist das Interface zur Speicherung von Daten eines Objektes, das in der App als Listeneintrag angezeigt werden kann.
+
+3.  Performer und Movie erben von Portrayable
+
+4.  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+
+5.  ui.MasterActivity
+
+6.  Es wird aufgerufen:
+    - ResultHandlingActivity.onCreate(savedInstanceState)
+    - setContentView(R.layout.active_master)
+    - checkPermissionState()
+
+7.  Die Funktionen erfüllen folgende Aufgaben:
+    - ruft die onCreate von A
+    - Legt die mit dieser Activity verbundene View fest
+    - Überprüft, ob die App Zugriff auf den Handyspeicher hat und fragt ggf. diesen an.
+
+8.                              Erweiterbarkeit     Einfachheit
+    ResultHandlingPlugin             +                    -
+    startActivityForResult          --                    +
+
+9.  de.associations.BidirectionalAssociationSet
+    de.associations.RuleViolationCallbacks
+    de.moviemanager.R
+    de.moviemanager.core.json.ImagePyramidFromJsonObject
+    de.moviemanager.core.json.MovieFromJsonObject
+    de.moviemanager.core.json.PerformerFromJsonObject
+    de.moviemanager.data.ImagePyramid
+    de.moviemanager.data.ImagePyramid.ImageSize
+    de.moviemanager.data.Movie
+    de.moviemanager.data.Performer
+    de.moviemanager.data.Portrayable
+    de.storage.Register
+    de.storage.Storage
+    de.storage.StorageException
+    de.util.Identifiable
+    de.util.Pair
+    de.util.operationflow.ReversibleOperations.ReversibleTransformation
+    de.util.operationflow.ReversibleTransaction
+    de.util.operationflow.Transaction
+
+10.
+          N             E
+    R     +             -
+    S     -             +
+
+11. Es müsste eine neue ...fromJsonObject Methode sowie ...toJson für den neuen Typ in core.json angelegt werden.
+
+12. Die Attribute sind mit der Notation @Bind versehen.
+
+13. ???
+
+14. Dem Adapter wird als Template-Parameter der jeweilige Klassentyp, also Movie oder Performer übergeben. Anschließend wird die Instanz durch den Builder aufgebaut.
