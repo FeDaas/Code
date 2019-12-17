@@ -1,0 +1,20 @@
+\documentclass[12pt]{article}  
+\usepackage[T1]{fontenc}  
+\usepackage{CJKutf8}  
+\usepackage[romanian]{babel}  
+\usepackage[overlap, CJK]{ruby}  
+\usepackage{CJKulem}  
+\renewcommand{\rubysep}{-0.2ex}  
+\newenvironment{Japanese}{%  
+\CJKfamily{min}%  
+\CJKtilde  
+\CJKnospace}{}  
+\begin{document}  
+\parskip 3ex  
+\parindent 0pt  
+\begin{CJK}{UTF8}{}  
+\begin{Japanese}  
+ねこ   
+\end{Japanese}  
+\end{CJK}  
+\end{document}

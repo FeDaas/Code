@@ -46,15 +46,59 @@ def getX():
 
     return x
 
-a = makeHilbert(40)
-b = makeBn(40)
-
-
-lu, piv = lu_factor(a)
-dist = lu_solve((lu,piv),b)
-
-print(getEn())
 
 plt.plot(getX(),getEn())
 plt.yscale("log")
+
+#b)
+
+def make_lu(matrix):
+    n = np.shape(matrix)[0]
+    l = np.eye(n)
+    u = matrix
+
+    for i in range(n):
+        for j in range(i+1,n):
+            if (u[i,i] != 0):
+                l[j,i] = u[j,i]/u[i,i]
+            u[j] -= l[j,i]*u[i]
+    return l,u
+
+def forward_substraction(l,b):
+    q = np.array(l)
+    n = np.shape(q)[0]
+    y = np.zeros(n)
+    for i in range(n):
+        y[i] = b[i]-sum(q[i][:i])
+        q[:,[i]]*=y[i]
+
+    return y
+
+
+def backward_substarction(u,b):
+    q = np.array(u)
+    n = np.shape(q)[0]
+    x = np.zeros(n)
+    for i in range(n-1,-1,-1):
+        x[i] = (b[i]-sum(q[i][i+1:]))/q[i][i]
+        q[:,[i]] *= x[i]
+
+    return x
+
+
+def getSelfEn():
+    en = np.zeros(36)
+    for i in range(5,41):
+        a = makeHilbert(i)
+        b = makeBn(i)
+        l,u = make_lu(a)
+        x = backward_substarction(u,forward_substraction(l,b))
+        dist = np.linalg.norm(makeXn(i)-x)
+        eux = np.linalg.norm(makeXn(i))
+        en[i-5] = dist/eux
+
+    return en
+
+
+plt.plot(getX(),getSelfEn())
 plt.show()
