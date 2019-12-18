@@ -1,19 +1,17 @@
-\documentclass[12pt]{article}  
-\usepackage[T1]{fontenc}  
-\usepackage{CJKutf8} 
-\usepackage[overlap, CJK]{ruby}  
-\usepackage{CJKulem}  
-\renewcommand{\rubysep}{-0.2ex}  
-\newenvironment{Japanese}{%  
-\CJKfamily{min}%  
-\CJKtilde  
-\CJKnospace}{}  
-\begin{document}  
-\parskip 3ex  
-\parindent 0pt  
-\begin{CJK}{UTF8}{}  
-\begin{Japanese}  
-ねこ   
-\end{Japanese}  
-\end{CJK}  
+\documentclass{article}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{Latex.bib}
+\begin{document}
+	
+
+	\section* {Aufgaben nummer oder sowas}
+	
+	\textit{"You shell not parse!"} \hfill \cite{2015} \\
+	\textit{"Allein der Vortrag macht des Redners Glück"} \hfill \cite{2019} \\
+	\textit{"Lehre tut viel, aber Aufmunterung tut alles"} \hfill \cite{2015} \\
+	\textit{"Was mich nicht umbringt, macht mich stärker."} \hfill \cite[see][chap.~2]{2015} \\
+	\textit{"Beautiful is better than ugly"} \hfill \cite*{2019} \\
+	\textit{"Explicit is better than implicit"} \hfill \cite{2016,2019} \\	
+	\printbibliography
+	
 \end{document}

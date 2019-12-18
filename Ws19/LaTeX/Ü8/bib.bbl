@@ -1,13 +1,121 @@
-\begin{thebibliography}{1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Tolkien(1954)]{Tolkien54}
-John R.~R. Tolkien.
-\newblock \emph{The Lord of the Rings}.
-\newblock Allen & Unwin, London, 1954.
 
-\end{thebibliography}
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{2016}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ae74cf607ad60cdcc61acac153dfb16}{%
+           family={Semmler-Schmeitz},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \strng{fullhash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \strng{bibnamehash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \strng{authorbibnamehash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \strng{authornamehash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \strng{authorfullhash}{4ae74cf607ad60cdcc61acac153dfb16}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6. vollst. überarb. u. erw. Aufl.}
+      \field{isbn}{3-64221-141-0}
+      \field{title}{Zehn Jahre RFID-Einsatz in der Bibliothek der Medizinischen Fakultät Mannheim}
+      \field{year}{2016}
+    \endentry
+    \entry{2015}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=93d1b88fa0686f455e9d7bbc5bdfe7ab}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Marc-Philippe},
+           giveni={M\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \strng{fullhash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \strng{bibnamehash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \strng{authorbibnamehash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \strng{authornamehash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \strng{authorfullhash}{93d1b88fa0686f455e9d7bbc5bdfe7ab}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6. vollst. überarb. u. erw. Aufl.}
+      \field{isbn}{3-64221-141-0}
+      \field{title}{Der internationale Anwendungsbereich der Geschlechterquote für Großunternehmen}
+      \field{year}{2015}
+    \endentry
+    \entry{2019}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=89d681d3accd24f945a379d65f49fd38}{%
+           family={Zeitler},
+           familyi={Z\bibinitperiod},
+           given={Marie-Luise},
+           giveni={M\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{89d681d3accd24f945a379d65f49fd38}
+      \strng{fullhash}{89d681d3accd24f945a379d65f49fd38}
+      \strng{bibnamehash}{89d681d3accd24f945a379d65f49fd38}
+      \strng{authorbibnamehash}{89d681d3accd24f945a379d65f49fd38}
+      \strng{authornamehash}{89d681d3accd24f945a379d65f49fd38}
+      \strng{authorfullhash}{89d681d3accd24f945a379d65f49fd38}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4. vollst. überarb. u. erw. Aufl.}
+      \field{isbn}{3-64221-141-0}
+      \field{title}{Subjektive Genesung, Lebensqualität und Lebenszufriedenheit bei ehemaligen Patientinnen mit einer Borderline- Persönlichkeitsstörung – Eine Untersuchung mit quantitativen und qualitativen Methoden}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

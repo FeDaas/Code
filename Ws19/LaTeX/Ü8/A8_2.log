@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.17)  17 DEC 2019 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.17)  18 DEC 2019 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,19 +805,19 @@ LaTeX Info: Redefining \up on input line 6.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./A8_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3607 strings out of 492982
- 42220 string characters out of 6134895
+ 3610 strings out of 492982
+ 42265 string characters out of 6134895
  117082 words of memory out of 5000000
- 7126 multiletter control sequences out of 15000+600000
+ 7129 multiletter control sequences out of 15000+600000
  5306 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,34p,278b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,34p,245b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/feli
 x/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/felix
 /.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk>
-Output written on A8_2.pdf (1 page, 22888 bytes).
+Output written on A8_2.pdf (1 page, 25675 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
