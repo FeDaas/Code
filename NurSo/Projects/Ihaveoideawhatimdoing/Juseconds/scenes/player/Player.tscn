@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scenes/player/Player.gd" type="Script" id=1]
+[ext_resource path="res://art/player/player_standing.png" type="Texture" id=2]
+[ext_resource path="res://art/player/player_right1.png" type="Texture" id=3]
+[ext_resource path="res://art/player/player_right2.png" type="Texture" id=4]
+[ext_resource path="res://art/player/player_right3.png" type="Texture" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2.21384, 7.06297 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "walking",
+"speed": 3.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+scale = Vector2( 2, 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 1 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+animation = "walking"
+speed_scale = 2.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.5, 0.5 )
+process_mode = 0
+drag_margin_left = 0.0
+drag_margin_top = 0.1
+drag_margin_right = 0.0
+drag_margin_bottom = 0.1
