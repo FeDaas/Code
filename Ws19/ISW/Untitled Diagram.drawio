@@ -1,1 +1,51 @@
-<mxfile host="www.draw.io" modified="2020-01-23T16:06:39.054Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="OWswlKoOY8DpqL54CqK0" version="12.5.6" type="github"><diagram id="mX-68v0Wq5qoGrVtnkYc" name="Page-1">3VpJc9s2FP41nHEO9lCkSMlHa3HTqT3xWGqTnjoQCVJIIEIBQS399QUIgLtE2qbcJD7YwsNbgA8Pb4Fs2NPN4TcKtutH4kNsWKZ/MOyZYVkD2xnwP4JylBTLsSQhpMhXTDlhgf6FimgqaoJ8GJcYGSGYoW2Z6JEogh4r0QClZF9mCwguW92CENYICw/gOvUz8tlaUsfWKKd/hChca8sD91bObIBmVjuJ18An+wLJnhv2lBLC5KfNYQqxAE/jIuXuT8xmC6MwYl0E/vAmj4/D6H40IPN9zBbeP9uP1+owdgAnasOG5WKub+KjHf8Yio+PZIegpnMDhSm1NXbUeFGSRD4UJk0+vV8jBhdb4InZPfcQTluzDeajAf8YIIynBBOaytq+A8f+kNNjRsk3WJgZWyvbdTN7O0gZPJzEYZChy90Skg1k9MhZlMC1q31LuaSjhvv8fC1T0daFs7UVDSiXCjPVOer8gwL+BYfg1A4hRXwGGUB47iP2F4L7XpEOxh70vCakV2Nn6Jg9IW0NW5EeOO+JtNuG9M+I8tBsR9l6T5THNZRngMF+QwWA46ARWtcbw1XQE7Sj2x8M2oHdELB/flzHHXF1L4ZrPQaXEqEJMAqjdML9noiUPcEwYPlIJ8RrQ6xbSqIo1uTl893vy4Vh3/HpJQWIxYJvNKEQ+J8ifDRGs0KCLQhq6ooWLewB89bppUo1yuvVnJ9fuwk/gc0G8pX0bhLGHkVbhkgkzS4YRVHYDAEGUZjw6iuWrA8oFlrBRvh3yp4JS9oZNCnEEMSnNT0BRJt1T3NsylZabW4p8RNPbPWBeED87WEj/DJvOGuPGmkSMbRRXoAi1uQEk2aXnz7P75afnqXolDs6IxUUdV1ZWsWLbkVLMdoS+0C8lS1DgA4iXr6iHtXunTr1ZcrThtjYWJ5mxP6DY71s+hXqpP8/6Yx+CVyrVX4Trk1V/vhiuN624woj/048D/CRh0EcI68MJd88PX4RgxvTHGrC3+Icbnjzr8azgzoYOToWR0+Q8sjJINXEA2JfUnnTtNRY6jNvHTXO9YnBsTCoapMbgn7t9aJybHzTJKEe7FD7MEBDyFqLz7ojFA666Zw1jadZnpZ25QU3Hb6y8ETShJMHRn2Mys9u3bIKuVElVXwIqSoaVRzWGlU8USJR05Q6Y7bv1/unDjIni83cT3WZFJCIXcfp65hIpwNze5BpsFJG/SnKmG7Jkd94VsmHKpl53IWEo01EXEAewHdqYoN8X4jzBM3XAlapKuGNWwFVCp4zMZyZSPBgBfEEeN/CNIIVo1L6o/akHvwGZ2ORettT9ozsRa3o7GcCwenIZd4MrKH9Nu/ULCQIYngZd+mrN5GlWlp1XQmLqqb70Fz6KT5Vij8BfrfwCVZRr91TspFMNZl0sCPc5InqkV+2JWIYXn04X/dL7lhzM/G7KNHN1CxvMzobLMqcaFO6GX/QbYs2/drqPFtarvFVLVG3ZT+rFun0qvtukrL9ZaYv26Z1w+Gzbrw1EKc6Y7X4nL+hZW8w2UcrnTu6bOHbltq35Ti3XHtEaEH5AiA8yw5Wg3Cmh41z5mrb2805nuo9fW+3vEn3G98Qum3qvvKm0NuOaorf8npxfi/OXFqF3xOA4yuy+irZP62+8rpCya4I4fElOiO+BvF6SvwmXyr6q2bfU96sLYlKijxrsGJalFEpwCCMz7lZ813o9Uu4Shn2Qz6CZE1465d01qW6SqveVS5FCf2+dTVIGInVab2khn4B9rY9LGHvuG4Ne7vxAerFyPNh/gW4rJfzfyOw5/8B</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-23T16:10:34.245Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="Ivt7ddutwFDatnWOK0FP" version="12.5.6" type="github">
+  <diagram id="mX-68v0Wq5qoGrVtnkYc" name="Page-1">
+    <mxGraphModel dx="1582" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-2" value="&lt;div&gt;Movie&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="50" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-5" value="MovieDetailEditView" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="50" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-6" value="MovieDetailEdit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="50" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-8" value="Date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="50" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-15" value="&lt;div align=&quot;left&quot;&gt;- &lt;ins&gt;TRAITS: Traits {readOnly}&lt;/ins&gt;&lt;br&gt;- watchDate: Date&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- dueDate: Date&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- description: String&lt;br&gt;- languages: List&amp;lt;String&amp;gt;&lt;br&gt;- releases: List&amp;lt;Pair&amp;lt;String, Date&amp;gt;&amp;gt;&lt;br&gt;- productionLocations: List&amp;lt;String&amp;gt;&lt;br&gt;- filmingLocations: List&amp;lt;String&amp;gt;&lt;br&gt;- runtime: int&lt;br&gt;+ &lt;ins&gt;CREATOR: Creator&amp;lt;Movie&amp;gt; {readOnly}&lt;/ins&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="80" width="200" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-16" value="&lt;div style=&quot;font-size: 8px&quot; align=&quot;left&quot;&gt;- showImage: ImageView&lt;br&gt;- showWatchDate: DateSelectionView&lt;br&gt;- showRuntime: TextView&lt;br&gt;- showRating: CustomRatingBar&lt;br&gt;- overallRatingTitle: TextView&lt;br&gt;- showOverallRating: CustomRatingBar&lt;br&gt;- showDescription: TextView&lt;br&gt;- showLinkedPerformers: RecyclerView&lt;br&gt;- linkedPerformers: List&amp;lt;Performer&amp;gt;&lt;br&gt;- adapter: LinkedDataAdapter&lt;br&gt;- showLanguages: TextView&lt;br&gt;- releaseList: RecyclerView&lt;br&gt;- releases: List&amp;lt;Map&amp;lt;String, ?&amp;gt;&amp;gt;&lt;br&gt;- releaseAdapter: SimpleRecyclerViewAdapter&lt;br&gt;- showProductionLocations: TextView&lt;br&gt;- showFilmingLocations: TextView&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="80" width="120" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="80" width="150" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-19" value="" style="endArrow=classic;html=1;entryX=1.004;entryY=0.27;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="KcBMM4nF71oEwstSc_pH-15" target="KcBMM4nF71oEwstSc_pH-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-622" y="96" as="sourcePoint"/>
+            <mxPoint x="-740" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-20" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;Uses&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;" parent="KcBMM4nF71oEwstSc_pH-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.1243" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KcBMM4nF71oEwstSc_pH-25" value="&lt;div align=&quot;left&quot;&gt;+ Movie(id: int)&lt;br&gt;- Movie(in: Parcel)&lt;br&gt;- readFromParcel(in: Parcel): void&lt;br&gt;+ getTitle(): String&lt;br&gt;+ setTitle(title: String): void&lt;br&gt;+ getDescription(): String&lt;br&gt;+ setDescription(description: String): void&lt;br&gt;+ getLanguages(): List&amp;lt;String&amp;gt;&lt;br&gt;+ setLanguages(languages: List&amp;lt;String&amp;gt;): void&lt;br&gt;+ getReleases(): List&amp;lt;Pair&amp;lt;String, Date&amp;gt;&amp;gt;&lt;br&gt;+ setReleases(releases: List&amp;lt;Pair&amp;lt;String, Date&amp;gt;&amp;gt;): void&lt;br&gt;+ getWatchDate(): Date&lt;br&gt;+ setWatchDate(watchDate: Date): void&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ getDueDate(): Date&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ setDueDate(dueDate: Date): void&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;+ getRuntime(): int&lt;br&gt;+ setRuntime(runtime: int): void&lt;br&gt;+ getProductionLocations(): List&amp;lt;String&amp;gt;&lt;br&gt;+ setProductionLocations(productionLocations: List&amp;lt;String&amp;gt;): void&lt;br&gt;+ getFilmingLocations(): List&amp;lt;String&amp;gt;&lt;br&gt;+ setFilmingLocations(filmingLocations: List&amp;lt;String&amp;gt;): void&lt;br&gt;^+ equals(obj: Object): boolean&lt;br&gt;^+ hashCode(): int&lt;div&gt;^+ writeToParcel(dest: Parcel, flags: int): void&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-610" y="260" width="200" height="350" as="geometry"/>
+        </mxCell>
+        <mxCell id="1U4HqfRGkfYe_hDsYgeS-1" value="&lt;div style=&quot;font-size: 6px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;+ MovieDetailActivity()&lt;br&gt;^# bindViews(): void&lt;br&gt;^# setupLists(): void&lt;br&gt;- setupLinkedPerformersList(): void&lt;br&gt;- getSortedLinkedPerformers(): List&amp;lt;Performer&amp;gt;&lt;br&gt;- setupReleaseList(): void&lt;br&gt;- getSortedReleases(): List&amp;lt;Map&amp;lt;String, ?&amp;gt;&amp;gt;&lt;br&gt;^# updateAfterLinkedDetails(result: Intent {readOnly}): void&lt;br&gt;^# updateAfterEdit(result: Intent): void&lt;br&gt;^# updateUIWithModelData(): void&lt;br&gt;- updateOverallRating(): void&lt;br&gt;^# setListeners(): void&lt;br&gt;+ onCreateOptionsMenu(menu: Menu): boolean&lt;br&gt;+ &lt;ins&gt;showAndNotifyIfOk(source: ResultHandlinActivity {readOnly}, movie: Movie {readOnly}, handler: ResultHandler {readOnly}): void&lt;/ins&gt;&lt;br&gt;+ &lt;ins&gt;showAndNotify(source: ResultHandlingActivity {readOnly}, movie: Movie {readOnly}, handler: ResultHandler {readOnly}): void&lt;/ins&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="310" width="120" height="190" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
