@@ -1,0 +1,279 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+MERGED from [com.google.android.material:material:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e36b431d6fd0ccf56771cbc7268869c0/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/felix/.gradle/caches/transforms-2/files-2.1/794513e44495fad63460536aa463b84a/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9d5cd56fc0c5e78a50fefa153a391d59/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6f50cfcd61137e6b351ae1cd4d87495c/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6891fcc8c932582eb8bff900c40b2fe7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1c3951dff75aff3c65491bf265c9dfaa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8328c460de394859dcb6fbcae14de608/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cd6ab51927ea52e3e8f08e08b0d00d8b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d8f9e61b059fc7e7d09111c6d9c99a7b/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ac563a29c2403949cc18ac9181c57c97/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/081196a45323c5fd4fcddd16df65e37d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6e1eb8479e861a7a73b2815cc28bcde9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8f5b807a5d8b8d25b9cc031c0f2dd0cc/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/083f54755f37da4b8b86c72b615c6710/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/5d16493cbc49183cf5eb9781b528a3ff/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ce0af4f7713570af4cc4e87a0402f217/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ae7ba3da14201ec7f15605198eca0a7a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/706a3321398d38af7df70b7b7ee1d126/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/b4aea7c3fbc29b73706b308acfcb8165/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e12551750e7206850ca30bc2a1bf4b4e/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1038c6dcf0f008d85b5cc1296c011a5b/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/a37faebb4076c1b4afa018f16263e61c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8b89c0fba042faec8837626121364c20/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/321fa18888eb2db9f34e10907311aacd/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/3d9b0f08de31798c5b6bc7334ea39842/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/4242518a12d7e6c969607959ff8c899c/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d24927fb39054cd6ab66f07cff08f078/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/07489715b9717ffc4131b4679e1eb70d/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cfb5613dbb1412cab853bbaeb4a45ee9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/f25b7d2521d77247780dacf00708ab79/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/2286158bce3e0f79e2f34a528ac21a35/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/35979ed2f48f4f9bc8361a355ab01709/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9c87744a4d06a1042c2c6744201a6ef2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+	package
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:1-85:12
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:9:5-83:19
+MERGED from [com.google.android.material:material:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e36b431d6fd0ccf56771cbc7268869c0/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e36b431d6fd0ccf56771cbc7268869c0/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/felix/.gradle/caches/transforms-2/files-2.1/794513e44495fad63460536aa463b84a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/felix/.gradle/caches/transforms-2/files-2.1/794513e44495fad63460536aa463b84a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d24927fb39054cd6ab66f07cff08f078/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d24927fb39054cd6ab66f07cff08f078/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:16:9-48
+	android:roundIcon
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:15:9-40
+activity#de.moviemanager.ui.MasterActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:18:9-27:20
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:20:13-49
+	android:launchMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:21:13-43
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:22:13-52
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:19:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:25:27-74
+activity#de.moviemanager.ui.detail.MovieDetailActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:28:9-33:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:30:13-49
+	android:launchMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:31:13-43
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:32:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:29:13-58
+activity#de.moviemanager.ui.detail.MovieDetailEditActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:35:9-40:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:37:13-49
+	android:launchMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:38:13-43
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:36:13-62
+activity#de.moviemanager.ui.detail.PerformerDetailActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:42:9-47:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:44:13-49
+	android:launchMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:45:13-43
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:46:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:43:13-62
+activity#de.moviemanager.ui.detail.PerformerDetailEditActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:49:9-54:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:51:13-49
+	android:launchMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:52:13-43
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:53:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:50:13-66
+activity#de.moviemanager.ui.search.PerformerSearchActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:56:9-60:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:58:13-49
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:59:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:57:13-62
+activity#de.moviemanager.ui.search.MovieSearchActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:62:9-66:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:64:13-49
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:65:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:63:13-58
+activity#de.moviemanager.ui.wiki.query.WikiQueryActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:68:9-72:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:70:13-49
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:71:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:69:13-60
+activity#de.moviemanager.ui.wiki.fetch.WikiFetchActivity
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:74:9-78:15
+	android:screenOrientation
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:76:13-49
+	android:windowSoftInputMode
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:77:13-54
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:75:13-60
+service#de.moviemanager.ui.wiki.query.WikiQueryService
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:80:9-66
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:80:18-64
+service#de.moviemanager.ui.wiki.fetch.WikiFetchService
+ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:82:9-66
+	android:name
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:82:18-64
+uses-sdk
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e36b431d6fd0ccf56771cbc7268869c0/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e36b431d6fd0ccf56771cbc7268869c0/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/felix/.gradle/caches/transforms-2/files-2.1/794513e44495fad63460536aa463b84a/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/felix/.gradle/caches/transforms-2/files-2.1/794513e44495fad63460536aa463b84a/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9d5cd56fc0c5e78a50fefa153a391d59/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9d5cd56fc0c5e78a50fefa153a391d59/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6f50cfcd61137e6b351ae1cd4d87495c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6f50cfcd61137e6b351ae1cd4d87495c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6891fcc8c932582eb8bff900c40b2fe7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6891fcc8c932582eb8bff900c40b2fe7/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1c3951dff75aff3c65491bf265c9dfaa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1c3951dff75aff3c65491bf265c9dfaa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8328c460de394859dcb6fbcae14de608/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8328c460de394859dcb6fbcae14de608/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cd6ab51927ea52e3e8f08e08b0d00d8b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cd6ab51927ea52e3e8f08e08b0d00d8b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d8f9e61b059fc7e7d09111c6d9c99a7b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d8f9e61b059fc7e7d09111c6d9c99a7b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ac563a29c2403949cc18ac9181c57c97/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ac563a29c2403949cc18ac9181c57c97/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/081196a45323c5fd4fcddd16df65e37d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/081196a45323c5fd4fcddd16df65e37d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6e1eb8479e861a7a73b2815cc28bcde9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6e1eb8479e861a7a73b2815cc28bcde9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8f5b807a5d8b8d25b9cc031c0f2dd0cc/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8f5b807a5d8b8d25b9cc031c0f2dd0cc/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/083f54755f37da4b8b86c72b615c6710/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/083f54755f37da4b8b86c72b615c6710/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/5d16493cbc49183cf5eb9781b528a3ff/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/5d16493cbc49183cf5eb9781b528a3ff/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ce0af4f7713570af4cc4e87a0402f217/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ce0af4f7713570af4cc4e87a0402f217/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ae7ba3da14201ec7f15605198eca0a7a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/ae7ba3da14201ec7f15605198eca0a7a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/706a3321398d38af7df70b7b7ee1d126/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/706a3321398d38af7df70b7b7ee1d126/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/b4aea7c3fbc29b73706b308acfcb8165/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/b4aea7c3fbc29b73706b308acfcb8165/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e12551750e7206850ca30bc2a1bf4b4e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/e12551750e7206850ca30bc2a1bf4b4e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1038c6dcf0f008d85b5cc1296c011a5b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/1038c6dcf0f008d85b5cc1296c011a5b/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/a37faebb4076c1b4afa018f16263e61c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/a37faebb4076c1b4afa018f16263e61c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8b89c0fba042faec8837626121364c20/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/8b89c0fba042faec8837626121364c20/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/321fa18888eb2db9f34e10907311aacd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/321fa18888eb2db9f34e10907311aacd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/3d9b0f08de31798c5b6bc7334ea39842/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/3d9b0f08de31798c5b6bc7334ea39842/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/4242518a12d7e6c969607959ff8c899c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/4242518a12d7e6c969607959ff8c899c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d24927fb39054cd6ab66f07cff08f078/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/d24927fb39054cd6ab66f07cff08f078/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/07489715b9717ffc4131b4679e1eb70d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/07489715b9717ffc4131b4679e1eb70d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cfb5613dbb1412cab853bbaeb4a45ee9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/cfb5613dbb1412cab853bbaeb4a45ee9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/f25b7d2521d77247780dacf00708ab79/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/f25b7d2521d77247780dacf00708ab79/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/2286158bce3e0f79e2f34a528ac21a35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/2286158bce3e0f79e2f34a528ac21a35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/35979ed2f48f4f9bc8361a355ab01709/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/35979ed2f48f4f9bc8361a355ab01709/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9c87744a4d06a1042c2c6744201a6ef2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/felix/.gradle/caches/transforms-2/files-2.1/9c87744a4d06a1042c2c6744201a6ef2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		ADDED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml

@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">MovieManager</string>
+
+    <!-- Bottom Navigation -->
+    <string name="bottom_navigation_menu_search">Search</string>
+    <string name="bottom_navigation_menu_movies">Movies</string>
+    <string name="bottom_navigation_menu_performers">Performers</string>
+
+    <!-- Master Fragments -->
+    <string name="master_filter_hint">Filter</string>
+    <string name="default_fragment_name">Nameless Fragment</string>
+    <string name="undo_message">Removed \'%s\'.</string>
+    <string name="undo_action">Undo</string>
+
+    <!-- Master Sort Criterion's -->
+    <string name="sorting_criterion_menu_open_description">Opens a menu with the different sorting orders.</string>
+    <string name="sorting_criterion_direction_description">Shows the direction of the current sorting order.</string>
+
+    <string name="movie_criterion_title">Title</string>
+    <string name="movie_criterion_rating">Rating</string>
+    <string name="movie_criterion_overall_rating">Overall Rating</string>
+    <string name="movie_criterion_due_date">DueDate</string>
+
+    <string name="performer_criterion_name">Name</string>
+    <string name="performer_criterion_rating">Rating</string>
+    <string name="performer_criterion_age">Age</string>
+
+    <!-- Editable Movie Attributes -->
+    <string name="movie_title">Title</string>
+    <string name="movie_dueDate">Due Date</string>
+    <string name="movie_dueDate_hint">Due Date (d.m.year)</string>
+    <string name="not_rated">Not Rated</string>
+    <string name="movie_rating">Rating</string>
+    <string name="movie_overallRating">Overall Rating\n(%s)</string>
+    <string name="linked_performers">Linked Performers</string>
+    <string name="movie_link_btn_description">Click to link one or more performers to this movie.</string>
+    <string name="movie_description">Description</string>
+    <string name="enter_description">Enter a description of this movie.</string>
+    <string name="movie_languages">Languages</string>
+    <string name="movie_enter_languages">Enter one language of this movie per line.</string>
+    <string name="movie_releases">Releases</string>
+    <string name="movie_add_release_description">Click to add a release to this movie.</string>
+    <string name="movie_watchDate">Watch Date</string>
+    <string name="movie_watchDate_hint">Watch Date (d.m.year)</string>
+    <string name="movie_runtime">Runtime\n(in minutes)</string>
+    <string name="sample_runtime">e.g. 120</string>
+    <string name="movie_productionLocations">Production Locations</string>
+    <string name="movie_enter_production_locations">Enter one production location of this movie per line.</string>
+    <string name="movie_filmingLocations">Filming Locations</string>
+    <string name="movie_enter_filming_locations">Enter one filming location of this movie per line.</string>
+
+    
+    <!-- Editable Performer Attributes -->
+    <string name="performer_name">Name</string>
+    <string name="performer_dateOfBirth">Date of birth</string>
+    <string name="performer_rating">Rating</string>
+    <string name="performer_birthName">Birthname</string>
+    <string name="performer_biography">Biography</string>
+    <string name="performer_enter_biography">Enter a biography of this performer.</string>
+    <string name="linked_movies">Linked Movies</string>
+    <string name="performer_link_btn_description">Click to link one or more movies to this performer.</string>
+    <string name="performer_occupations">Occupations</string>
+    <string name="performer_enter_occupations">Enter occupations line by line.</string>
+
+    <!-- Edit Menu Actions -->
+    <string name="edit_action_sync">Sync with Wikipedia</string>
+    <string name="edit_action_undo">Undo last change</string>
+    <string name="edit_action_commit">Save changes</string>
+
+    <!-- Search Menu Titles -->
+    <string name="default_search_title">Specific Search</string>
+    <string name="default_query_text">Search in …</string>
+    <string name="movie_results_title_text">Movie Results</string>
+    <string name="performer_results_title_text">Performer Results</string>
+
+    <string name="performer_search_title">Performer Search</string>
+    <string name="movie_search_title">Movie Search</string>
+    <string name="search_info">Search by entering a partial name. The best matches will show at the top of the list.</string>
+    <string name="search_unsuccessful">No entry is matching the requested text \'%s\'.</string>
+
+    <!-- Search Menu Actions -->
+    <string name="show_all_movie_res_btn_text">Search in Movies</string>
+    <string name="show_all_performer_res_btn_text">Search in Performers</string>
+
+    <!-- Search Bars -->
+    <string name="search_icon_description">Shows the classic search icon - a magnifying glass</string>
+    <string name="search_failed_icon_description">
+        Shows the classic search icon - a magnifying glass - with an exclamation mark,
+        indicated that the search was not successful.
+    </string>
+    <string name="search_all_categories_hint">Search all Categories</string>
+    <string name="search_in_performers_hint">Search in Performers</string>
+    <string name="search_in_movies_hint">Search in Movies</string>
+    <string name="continue_search_in_movies">Continue search in Movies</string>
+    <string name="continue_search_in_performers">Continue search in Performers</string>
+    <string name="continue_search_description">Continue search in a more specific domain.</string>
+    <string name="only_search_info">Or continue search in a more specific context:</string>
+    <string name="search_in_movies_only"><u>Search only in Movies</u></string>
+    <string name="search_in_performers_only"><u>Search only in Performers</u></string>
+
+    <!-- Basic Button -->
+    <string name="add_description">Click to add an element.</string>
+
+    <!-- Basic Dialog -->
+    <string name="dialog_title">Dialog Title</string>
+    <string name="dialog_message">The message of the dialog.</string>
+    <string name="discard_changes">Do you really want to discard changes?</string>
+    <string name="error">Error</string>
+    <string name="error_storage_message">The storage could not be initialized.\n Stopping Application.</string>
+    <string name="warning">Warning</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Ok">OK</string>
+
+    <!-- Warnings -->
+    <string name="warning_movie_title">Title is required</string>
+    <string name="warning_movie_overdue">Overdue since %d days</string>
+    <string name="warning_performer_name">Name is required.</string>
+    <string name="warning_performer_minimum_movies">Link at least one movie.</string>
+    <string name="warning_performer_self_delete"> (This performer will be deleted!)</string>
+    <string name="warning_performer_will_be_deleted">The Performer \'%s\' will be deleted!</string>
+    <string name="warning_linked_performers_removal">If changes are committed %s Performer will be removed. Continue?</string>
+
+    <!-- Information -->
+    <string name="info_performer_deletion">Performer \'%s\' was deleted!</string>
+
+    <!-- Release Creation Dialog -->
+    <string name="missing_attribute_place_of_release">Place of release must be non-empty.</string>
+    <string name="hint_place_of_release">Place of release</string>
+    <string name="date_of_release">Date Of Release</string>
+    <string name="create_release">Create New Release</string>
+    <string name="modify_release">Modify Release</string>
+
+    <!-- DateSelectionView -->
+    <string name="date_selection_view_show_error">Show error</string>
+    <string name="date_selection_view_empty_date">--.--.----</string>
+
+    <!-- Image Descriptions -->
+    <string name="remove_image_button">Removes the selected image.</string>
+    <string name="date_selection_view_select_date">Select a date.</string>
+    <string name="date_selection_view_delete_date">Delete a previously selected date.</string>
+    <string name="list_item_portrayable_image">Image representing this entity.</string>
+
+    <!-- Wiki Sync -->
+    <!-- Info Messages -->
+    <string name="warning_no_internet">No connection to the internet.\nPlease enable your WiFi connection and retry.</string>
+    <string name="warning_no_wifi">Please establish a Wi-Fi connection.</string>
+    <string name="info_loading">Please wait…</string>
+    <string name="warning_nothing_found">Nothing was found!</string>
+
+    <!-- Query Activity -->
+    <string name="query_activity_forward">Fetch Attributes</string>
+    <string name="query_activiy_forward_arrow_description">Arrow indicating the next section.</string>
+    <string name="refresh_description">Refresh the current data.</string>
+
+    <!-- Fetch Activity -->
+    <string name="fetch_description">Fetch Attributes</string>
+    <string name="fetch_activity_forward">Accept</string>
+    <string name="fetch_activity_backward">Change</string>
+</resources>

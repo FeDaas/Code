@@ -1,0 +1,44 @@
+QFrame
+{
+    background-color:
+    rgb(50, 50, 50);
+}
+
+QMenuBar
+{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 8px 10px;
+}
+
+QMenuBar::item
+{
+    background-color: rgb(70, 70, 70);
+}
+
+QMenuBar::item:selected
+{
+    background-color: rgb(150, 150, 150);
+}
+
+QMenu
+{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+QMenu::item:selected
+{
+    background-color: rgb(150, 150, 150);
+}
+
+QScrollBar
+{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+QScrollBar::handle
+{
+    background-color: rgb(60, 60, 60);
+}

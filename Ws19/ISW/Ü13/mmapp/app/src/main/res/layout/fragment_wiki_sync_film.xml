@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAEAEA"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text=""
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <ImageView
+            style="@style/PortrayableImageLarge"
+            android:id="@+id/image"
+            android:contentDescription="@string/list_item_portrayable_image"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                style="@style/HorizontalDetailAttributeHeader"
+                android:id="@+id/runtime_header"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/movie_runtime"
+                />
+
+            <View
+                style="@style/HorizontalHeaderDivider"
+                android:id="@+id/runtime_header_divider"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                />
+
+            <TextView
+                android:id="@+id/runtime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:paddingStart="@dimen/default_padding"
+                android:paddingEnd="@dimen/default_padding"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                />
+
+            <View
+                style="@style/AttributeEnd"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                app:layout_constraintTop_toBottomOf="@id/runtime_header"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/description_header"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/movie_description"
+            android:layout_marginTop="@dimen/default_margin"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="start|top"
+            android:lines="8"
+            android:maxLines="8"
+            android:padding="@dimen/default_padding"
+            android:scrollbars="vertical"
+            android:textSize="18sp"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/languages_header"
+            android:text="@string/movie_languages"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            style="@style/DetailStringList"
+            android:id="@+id/languages"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/releases_header"
+            android:text="@string/movie_releases"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            style="@style/DetailStringList"
+            android:id="@+id/releases"
+            android:gravity="start|top"
+            android:lines="3"
+            android:maxLines="3"
+            android:padding="@dimen/default_padding"
+            android:scrollbars="vertical"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/production_locations_header"
+            android:text="@string/movie_productionLocations"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/production_locations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/DetailStringList"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+    </LinearLayout>
+
+</ScrollView>

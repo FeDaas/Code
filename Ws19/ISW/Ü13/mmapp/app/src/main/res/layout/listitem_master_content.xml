@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_border_view"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/half_padding"
+        >
+
+        <ImageView
+            style="@style/PortrayableImageMedium"
+            android:id="@+id/content_image"
+            android:contentDescription="@string/list_item_portrayable_image"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/content_title"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingStart="@dimen/default_padding"
+            android:paddingEnd="@dimen/default_padding"
+            android:text="@string/bottom_navigation_menu_movies"
+            android:textSize="22sp"
+
+            app:layout_constraintLeft_toRightOf="@id/content_image"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <View
+            style="@style/AttributeEnd"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="@dimen/default_margin"
+
+            app:layout_constraintStart_toStartOf="@id/content_title"
+            app:layout_constraintEnd_toEndOf="@id/content_title"
+            app:layout_constraintBottom_toBottomOf="@id/content_title"
+            />
+
+        <TextView
+            android:id="@+id/content_subtitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/half_star_family"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/default_padding"
+            android:paddingEnd="@dimen/default_padding"
+            android:text="@string/movie_rating"
+            android:textSize="18sp"
+
+            app:layout_constraintBottom_toBottomOf="@+id/content_image"
+            app:layout_constraintLeft_toRightOf="@id/content_image"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/content_title"
+            />
+
+        <ImageView
+            android:id="@+id/dueStatusIcon"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/content_image"
+            app:layout_constraintTop_toTopOf="@+id/content_image"
+            app:srcCompat="@drawable/ic_overdue_banner_small" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

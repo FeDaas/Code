@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="rules">
+    <option name="sonarRulesByRuleKey">
+      <map>
+        <entry key="squid:ModifiersOrderCheck">
+          <value>
+            <Rule>
+              <option name="htmlDesc" value="&lt;p&gt;The Java Language Specification recommends listing modifiers in the following order:&lt;/p&gt;&#10;&lt;p&gt;1. Annotations&lt;/p&gt;&#10;&lt;p&gt;2. public&lt;/p&gt;&#10;&lt;p&gt;3. protected&lt;/p&gt;&#10;&lt;p&gt;4. private&lt;/p&gt;&#10;&lt;p&gt;5. abstract&lt;/p&gt;&#10;&lt;p&gt;6. static&lt;/p&gt;&#10;&lt;p&gt;7. final&lt;/p&gt;&#10;&lt;p&gt;8. transient&lt;/p&gt;&#10;&lt;p&gt;9. volatile&lt;/p&gt;&#10;&lt;p&gt;10. synchronized&lt;/p&gt;&#10;&lt;p&gt;11. native&lt;/p&gt;&#10;&lt;p&gt;12. strictfp&lt;/p&gt;&#10;&lt;p&gt;Not following this convention has no technical impact, but will reduce the code's readability because most developers are used to the standard&#10;order.&lt;/p&gt;&#10;&lt;h2&gt;Noncompliant Code Example&lt;/h2&gt;&#10;&lt;pre&gt;&#10;static public void main(String[] args) {   // Noncompliant&#10;}&#10;&lt;/pre&gt;&#10;&lt;h2&gt;Compliant Solution&lt;/h2&gt;&#10;&lt;pre&gt;&#10;public static void main(String[] args) {   // Compliant&#10;}&#10;&lt;/pre&gt;" />
+              <option name="key" value="squid:ModifiersOrderCheck" />
+              <option name="lan" value="java" />
+              <option name="langName" value="Java" />
+              <option name="name" value="Modifiers should be declared in the correct order" />
+              <option name="severity" value="MINOR" />
+            </Rule>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

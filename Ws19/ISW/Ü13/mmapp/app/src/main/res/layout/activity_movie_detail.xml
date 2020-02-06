@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    tools:context=".ui.detail.MovieDetailActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/top_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/near_white"
+            android:paddingBottom="@dimen/default_padding"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <de.moviemanager.ui.view.DateSelectionView
+                android:id="@+id/due_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                app:editEnable="false"
+
+                app:errorEnable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toBottomOf="@+id/due_date_divider"
+                app:minDate="today" />
+
+            <TextView
+                android:id="@+id/due_date_header"
+                style="@style/DetailAttributeHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                android:text="@string/movie_dueDate"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toBottomOf="@+id/watch_date" />
+
+            <View
+                android:id="@+id/due_date_divider"
+                style="@style/HeaderDivider"
+                android:layout_width="0dp"
+
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="@+id/due_date_header"
+                app:layout_constraintStart_toStartOf="@+id/due_date_header"
+                app:layout_constraintTop_toBottomOf="@+id/due_date_header" />
+
+            <ImageView
+                style="@style/PortrayableImageLarge"
+                android:id="@+id/image"
+                android:contentDescription="@string/list_item_portrayable_image"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/watch_date_header"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="@dimen/double_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:text="@string/movie_watchDate"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <View
+                style="@style/HeaderDivider"
+                android:id="@+id/watch_date_divider"
+                android:layout_width="0dp"
+
+                app:layout_constraintStart_toStartOf="@id/watch_date_header"
+                app:layout_constraintEnd_toEndOf="@id/watch_date_header"
+                app:layout_constraintTop_toBottomOf="@id/watch_date_header"
+                />
+
+            <de.moviemanager.ui.view.DateSelectionView
+                android:id="@+id/watch_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                app:editEnable="false"
+                app:errorEnable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toBottomOf="@id/watch_date_divider"
+                app:maxDate="today" />
+
+            <TextView
+                style="@style/HorizontalDetailAttributeHeader"
+                android:id="@+id/runtime_header"
+                android:layout_width="0dp"
+                android:text="@string/movie_runtime"
+
+                app:layout_constraintEnd_toEndOf="@id/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image"
+                />
+
+            <View
+                style="@style/HorizontalHeaderDivider"
+                android:id="@+id/runtime_header_divider"
+                android:layout_height="0dp"
+                android:layout_marginEnd="0dp"
+
+                app:layout_constraintBottom_toBottomOf="@id/runtime_header"
+                app:layout_constraintStart_toEndOf="@id/runtime_header"
+                app:layout_constraintTop_toTopOf="@id/runtime_header"
+                />
+
+            <TextView
+                android:id="@+id/runtime"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:paddingStart="@dimen/default_padding"
+                android:paddingEnd="@dimen/default_padding"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+
+                app:layout_constraintBottom_toBottomOf="@id/runtime_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/runtime_header_divider"
+                app:layout_constraintTop_toTopOf="@id/runtime_header"
+                />
+
+            <View
+                style="@style/AttributeEnd"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                app:layout_constraintTop_toBottomOf="@id/runtime_header"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/rating_header"
+                style="@style/HorizontalDetailAttributeHeader"
+                android:layout_width="0dp"
+                android:text="@string/movie_rating"
+
+                app:layout_constraintEnd_toEndOf="@id/image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/runtime_header"
+                />
+
+            <View
+                android:id="@+id/rating_divider"
+                style="@style/HorizontalHeaderDivider"
+                android:layout_height="0dp"
+                android:layout_marginEnd="0dp"
+
+                app:layout_constraintBottom_toBottomOf="@id/rating_header"
+                app:layout_constraintStart_toEndOf="@id/rating_header"
+                app:layout_constraintTop_toTopOf="@id/rating_header"
+                />
+
+            <de.moviemanager.ui.view.CustomRatingBar
+                android:id="@+id/rating"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:background="@color/white"
+                app:isIndicator="true"
+                app:starSize="38dp"
+                app:stars="5"
+
+                app:layout_constraintBottom_toBottomOf="@+id/rating_header"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/rating_divider"
+                app:layout_constraintTop_toTopOf="@id/rating_header"
+                 />
+
+            <View
+                style="@style/AttributeEnd"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                app:layout_constraintTop_toBottomOf="@id/rating_header"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <TextView
+                style="@style/HorizontalDetailAttributeHeader"
+                android:id="@+id/overall_rating_header"
+                android:layout_width="0dp"
+                android:layout_marginBottom="@dimen/half_margin"
+                android:text="@string/movie_overallRating"
+
+                android:textSize="18sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/image"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rating_header"
+                />
+
+            <View
+                style="@style/HorizontalHeaderDivider"
+                android:id="@+id/overall_rating_divider"
+                android:layout_height="0dp"
+                android:layout_marginEnd="0dp"
+
+                app:layout_constraintBottom_toBottomOf="@id/overall_rating_header"
+                app:layout_constraintStart_toEndOf="@id/overall_rating_header"
+                app:layout_constraintTop_toTopOf="@id/overall_rating_header"
+                />
+
+            <de.moviemanager.ui.view.CustomRatingBar
+                android:id="@+id/overall_rating"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/half_margin"
+                android:background="@color/white"
+
+                app:isIndicator="true"
+                app:starSize="38dp"
+                app:stars="5"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/overall_rating_divider"
+                app:layout_constraintTop_toTopOf="@id/overall_rating_header"
+
+                />
+
+            <View
+                style="@style/AttributeEnd"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                app:layout_constraintTop_toBottomOf="@id/overall_rating_header"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/due_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@+id/image"
+                app:layout_constraintTop_toTopOf="@+id/image"
+                app:srcCompat="@drawable/ic_due_banner_big" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAEAEA"
+            android:orientation="vertical"
+            android:paddingBottom="?android:attr/actionBarSize"
+            >
+
+            <TextView
+                android:id="@+id/description_header"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" style="@style/DetailAttributeHeader"
+                android:text="@string/movie_description"
+                android:layout_marginTop="0dp"
+                 />
+
+            <View style="@style/HeaderDivider" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="start|top"
+                android:lines="8"
+                android:maxLines="8"
+                android:padding="@dimen/default_padding"
+                android:scrollbars="vertical"
+                android:textSize="18sp"
+                />
+
+            <View style="@style/AttributeEnd" />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/linked_performers_header"
+                android:text="@string/linked_performers"
+                />
+
+            <View style="@style/HeaderDivider" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/linked_performers"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linked_portrayables_height"
+                android:background="@color/white"
+                android:orientation="vertical"
+                />
+
+            <View style="@style/AttributeEnd" />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/languages_header"
+                android:text="@string/movie_languages"
+                />
+
+            <View style="@style/HeaderDivider" />
+
+            <TextView
+                style="@style/DetailStringList"
+                android:id="@+id/languages"
+                />
+
+            <View style="@style/AttributeEnd" />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/releases_header"
+                android:text="@string/movie_releases"
+                />
+
+            <View style="@style/HeaderDivider" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/releases"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                />
+
+            <View style="@style/AttributeEnd" />
+
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/production_locations_header"
+                android:text="@string/movie_productionLocations"
+                />
+
+            <View style="@style/HeaderDivider" />
+
+            <TextView
+                android:id="@+id/production_locations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/DetailStringList"
+                />
+
+            <View style="@style/AttributeEnd" />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/filming_locations_header"
+                android:text="@string/movie_filmingLocations"
+                />
+
+            <View style="@style/HeaderDivider" />
+
+            <TextView
+                style="@style/DetailStringList"
+                android:id="@+id/filming_locations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+
+            <View style="@style/AttributeEnd" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

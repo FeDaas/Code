@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal_guideline_end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/base_square"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/base_square"
+        android:padding="@dimen/default_padding"
+        android:text="@string/fetch_description"
+        android:gravity="center_vertical"
+        android:textSize="24sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/horizontal_guideline_end"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/refresh_button"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/base_square"
+        android:src="@drawable/ic_refresh"
+        android:background="@color/colorAccent"
+        android:scaleType="fitCenter"
+        android:padding="8dp"
+        android:contentDescription="@string/refresh_description"
+
+        app:layout_constraintStart_toEndOf="@id/horizontal_guideline_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        style="@style/HeaderDivider"
+        android:id="@+id/top_divider"
+
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_divider"
+        app:layout_constraintBottom_toTopOf="@id/bottom_bar"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/base_square"
+        android:background="@color/colorPrimary"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/backward_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_arrow_left_simple"
+            android:contentDescription="@string/query_activiy_forward_arrow_description"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <Button
+            style="@style/FlatButton"
+            android:id="@+id/backward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/fetch_activity_backward"
+
+            app:layout_constraintStart_toEndOf="@id/backward_arrow"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <Button
+            style="@style/FlatButton"
+            android:id="@+id/forward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/fetch_activity_forward"
+
+            app:layout_constraintEnd_toStartOf="@id/forward_arrow"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/forward_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_arrow_right_simple"
+            android:contentDescription="@string/query_activiy_forward_arrow_description"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

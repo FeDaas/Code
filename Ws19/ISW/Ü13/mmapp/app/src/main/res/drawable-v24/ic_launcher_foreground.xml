@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="320"
+    android:viewportWidth="320">
+    <path
+        android:fillColor="@color/white"
+        android:fillType="evenOdd"
+        android:pathData="M90,90 h140 v140 h-140z
+            M100,100 h10v15h-10z
+            M100,122.5 h10v10h-10z
+            M100,140 h10v15h-10z
+            M100,165 h10v15h-10z
+            M100,187.5 h10v10h-10z
+            M100,205 h10v15h-10z
+
+            M120,100 h80v50h-80z
+            M120,170 h80v50h-80z
+
+            M210,100 h10v15h-10z
+            M210,122.5 h10v10h-10z
+            M210,140 h10v15h-10z
+            M210,165 h10v15h-10z
+            M210,187.5 h10v10h-10z
+            M210,205 h10v15h-10z
+            "
+        />
+</vector>

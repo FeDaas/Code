@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    >
+
+    <TextView
+        style="@style/DetailAttributeHeader"
+        android:id="@+id/dialog_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:paddingTop="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding"
+        android:layout_marginTop="0dp"
+        android:text="@string/dialog_title"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryLight"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:theme="@style/LightEditText"
+        android:id="@+id/edit_release_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        app:errorEnabled="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_release_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_place_of_release"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:id="@+id/view"
+        style="@style/AttributeEnd"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_release_name"
+        />
+
+    <TextView
+        style="@style/DetailAttributeHeader"
+        android:id="@+id/date_of_release_header"
+        android:layout_width="0dp"
+        android:text="@string/date_of_release"
+        android:layout_marginTop="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        />
+
+    <View
+        style="@style/HeaderDivider"
+        android:id="@+id/release_date_divider"
+
+        app:layout_constraintStart_toStartOf="@id/date_of_release_header"
+        app:layout_constraintEnd_toEndOf="@id/date_of_release_header"
+        app:layout_constraintBottom_toBottomOf="@id/date_of_release_header"
+        />
+
+    <LinearLayout
+        android:id="@+id/edit_release_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/release_date_divider"
+        >
+
+        <NumberPicker
+            android:id="@+id/edit_release_day"
+            android:theme="@style/DateSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/default_padding"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <NumberPicker
+            android:id="@+id/edit_release_month"
+            android:theme="@style/DateSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <NumberPicker
+            android:id="@+id/edit_release_year"
+            android:theme="@style/DateSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_marginEnd="@dimen/default_padding"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/AttributeEnd"
+        android:id="@+id/edit_release_date_end"
+        android:layout_marginBottom="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_release_date"
+        />
+
+    <include
+        layout="@layout/dialog_two_button_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_release_date_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.5"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.moviemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:9:5-83:19
+16        android:allowBackup="true"
+16-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/felix/.gradle/caches/transforms-2/files-2.1/6dffbcc2577cd78f4ded5419845022a4/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:15:9-40
+25        <activity
+25-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:18:9-27:20
+26            android:name="de.moviemanager.ui.MasterActivity"
+26-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:19:13-46
+27            android:launchMode="singleTop"
+27-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:21:13-43
+28            android:screenOrientation="portrait"
+28-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:20:13-49
+29            android:windowSoftInputMode="adjustPan" >
+29-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:22:13-52
+30            <intent-filter>
+30-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:23:13-26:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:24:17-69
+31-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:25:17-77
+33-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:25:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:28:9-33:15
+37            android:name="de.moviemanager.ui.detail.MovieDetailActivity"
+37-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:29:13-58
+38            android:launchMode="singleTop"
+38-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:31:13-43
+39            android:screenOrientation="portrait"
+39-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:30:13-49
+40            android:windowSoftInputMode="stateHidden" />
+40-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:32:13-54
+41        <activity
+41-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:35:9-40:15
+42            android:name="de.moviemanager.ui.detail.MovieDetailEditActivity"
+42-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:36:13-62
+43            android:launchMode="singleTop"
+43-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:38:13-43
+44            android:screenOrientation="portrait"
+44-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:37:13-49
+45            android:windowSoftInputMode="stateHidden" />
+45-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:39:13-54
+46        <activity
+46-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:42:9-47:15
+47            android:name="de.moviemanager.ui.detail.PerformerDetailActivity"
+47-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:43:13-62
+48            android:launchMode="singleTop"
+48-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:45:13-43
+49            android:screenOrientation="portrait"
+49-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:44:13-49
+50            android:windowSoftInputMode="stateHidden" />
+50-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:46:13-54
+51        <activity
+51-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:49:9-54:15
+52            android:name="de.moviemanager.ui.detail.PerformerDetailEditActivity"
+52-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:50:13-66
+53            android:launchMode="singleTop"
+53-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:52:13-43
+54            android:screenOrientation="portrait"
+54-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:51:13-49
+55            android:windowSoftInputMode="stateHidden" />
+55-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:53:13-54
+56        <activity
+56-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:56:9-60:15
+57            android:name="de.moviemanager.ui.search.PerformerSearchActivity"
+57-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:57:13-62
+58            android:screenOrientation="portrait"
+58-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:58:13-49
+59            android:windowSoftInputMode="stateHidden" />
+59-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:59:13-54
+60        <activity
+60-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:62:9-66:15
+61            android:name="de.moviemanager.ui.search.MovieSearchActivity"
+61-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:63:13-58
+62            android:screenOrientation="portrait"
+62-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:64:13-49
+63            android:windowSoftInputMode="stateHidden" />
+63-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:65:13-54
+64        <activity
+64-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:68:9-72:15
+65            android:name="de.moviemanager.ui.wiki.query.WikiQueryActivity"
+65-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:69:13-60
+66            android:screenOrientation="portrait"
+66-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:70:13-49
+67            android:windowSoftInputMode="stateHidden" />
+67-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:71:13-54
+68        <activity
+68-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:74:9-78:15
+69            android:name="de.moviemanager.ui.wiki.fetch.WikiFetchActivity"
+69-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:75:13-60
+70            android:screenOrientation="portrait"
+70-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:76:13-49
+71            android:windowSoftInputMode="stateHidden" />
+71-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:77:13-54
+72
+73        <service android:name="de.moviemanager.ui.wiki.query.WikiQueryService" />
+73-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:80:9-66
+73-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:80:18-64
+74        <service android:name="de.moviemanager.ui.wiki.fetch.WikiFetchService" />
+74-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:82:9-66
+74-->/home/felix/AndroidStudioProjects/MovieManager/mmapp/app/src/main/AndroidManifest.xml:82:18-64
+75    </application>
+76
+77</manifest>

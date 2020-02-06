@@ -1,0 +1,5 @@
+
+qsquid:MaximumInheritanceDepth8"<This class has 8 parents which is greater than 5 authorized.(ÅÆæÜúÿÿÿÿ8›°Ñ.
+V
+squid:S106h"9Replace this use of System.out or System.err by a logger.(‰× ç8ÆàÒ.
+usquid:S00117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´šú…ÿÿÿÿÿ8ŸÆÐÓ.

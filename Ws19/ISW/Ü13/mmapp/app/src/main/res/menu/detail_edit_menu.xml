@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/wiki_sync"
+        android:icon="@drawable/ic_detail_edit_wiki_sync"
+        android:title="@string/edit_action_sync"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/undo"
+        android:icon="@drawable/ic_detail_edit_undo"
+        android:title="@string/edit_action_undo"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/commit"
+        android:icon="@drawable/ic_detail_edit_confirm"
+        android:title="@string/edit_action_commit"
+        app:showAsAction="always"
+        />
+</menu>

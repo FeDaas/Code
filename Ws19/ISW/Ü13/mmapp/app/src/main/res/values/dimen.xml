@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="half_padding">4dp</dimen>
+    <dimen name="default_padding">8dp</dimen>
+    <dimen name="half_margin">4dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="double_margin">16dp</dimen>
+
+    <dimen name="parallax_top_container">280dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="base_square">48dp</dimen>
+
+    <dimen name="linked_portrayables_height">240dp</dimen>
+
+    <dimen name="star">32dp</dimen>
+</resources>

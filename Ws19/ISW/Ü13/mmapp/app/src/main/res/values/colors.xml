@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#79aed3</color>
+    <color name="colorPrimary">#0c619d</color>
+    <color name="colorPrimaryDark">#010407</color>
+    <color name="colorAccentLight">#e48686</color>
+    <color name="colorAccent">#d13333</color>
+
+    <!-->General Colors</!-->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="near_white">#EAEAEA</color>
+    <color name="lighter_gray">#dfdfdf</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="gray">#444444</color>
+    <color name="dark_gray">#222222</color>
+    <color name="black">#000000</color>
+
+    <color name="light_coral">#f08080</color>
+    <color name="dark_red">#8b0000</color>
+    <color name="yellow_gray">#d4c6b1</color>
+    <color name="yellow">#f19e15</color>
+    <color name="dark_yellow">#c7800c</color>
+    <color name="ivory">#FFFFF0</color>
+
+    <!--> Icon enabled/disabled base color </!-->
+    <color name="icon_enabled_fill">#ffffffff</color>
+    <color name="icon_enabled_stroke">#ff6c6c6c</color>
+    <color name="icon_disabled_fill">#AAaaaaaa</color>
+    <color name="icon_disabled_stroke">#AA2c2c2c</color>
+</resources>

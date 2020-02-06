@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/near_white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/near_white"
+            android:paddingBottom="@dimen/default_padding"
+            >
+
+            <ImageView
+                style="@style/PortrayableImageLarge"
+                android:id="@+id/image"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/list_item_portrayable_image"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/date_of_birth_header"
+                android:layout_width="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/performer_dateOfBirth"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/image"
+                />
+
+            <View
+                style="@style/HeaderDivider"
+                android:id="@+id/date_of_birth_divider"
+                android:layout_width="0dp"
+
+                app:layout_constraintStart_toStartOf="@id/date_of_birth_header"
+                app:layout_constraintEnd_toEndOf="@id/date_of_birth_header"
+                app:layout_constraintTop_toBottomOf="@id/date_of_birth_header"
+                />
+
+            <de.moviemanager.ui.view.DateSelectionView
+                android:id="@+id/date_of_birth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+
+                app:editEnable="false"
+                app:errorEnable="false"
+
+                app:layout_constraintTop_toBottomOf="@id/date_of_birth_divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/image"
+                />
+
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/rating_header"
+                android:layout_width="0dp"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginTop="@dimen/double_margin"
+                android:text="@string/movie_rating"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/image"
+                app:layout_constraintTop_toBottomOf="@id/date_of_birth"
+                />
+
+            <View
+                style="@style/HeaderDivider"
+                android:id="@+id/rating_divider"
+                android:layout_width="0dp"
+
+                app:layout_constraintStart_toStartOf="@id/rating_header"
+                app:layout_constraintEnd_toEndOf="@id/rating_header"
+                app:layout_constraintTop_toBottomOf="@id/rating_header"
+                />
+
+
+            <de.moviemanager.ui.view.CustomRatingBar
+                android:id="@+id/rating"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+
+                app:isIndicator="true"
+                app:stars="5"
+                app:starSize="38dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/image"
+                app:layout_constraintTop_toBottomOf="@id/rating_divider"
+                />
+
+            <View
+                style="@style/AttributeEnd"
+                android:layout_width="0dp"
+
+                app:layout_constraintStart_toStartOf="@id/rating"
+                app:layout_constraintEnd_toEndOf="@id/rating"
+                app:layout_constraintTop_toBottomOf="@id/rating"
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/birth_name_header"
+            android:layout_marginTop="0dp"
+            android:text="@string/performer_birthName"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/birth_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+
+            android:textSize="18sp"
+            android:background="@color/white"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/biography_header"
+            android:text="@string/performer_biography"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/biography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:textSize="18sp"
+            android:gravity="start|top"
+            android:lines="8"
+            android:maxLines="8"
+            android:background="@color/white"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/linked_movies_header"
+            android:text="@string/linked_movies"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/linked_movies"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linked_portrayables_height"
+            android:padding="@dimen/default_padding"
+            android:background="@color/white"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/occupations_header"
+            android:layout_width="match_parent"
+            android:text="@string/performer_occupations"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/occupations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:textSize="18sp"
+            android:gravity="start|top"
+            android:lines="3"
+            android:maxLines="3"
+            android:background="@color/white"
+            />
+
+        <View style="@style/AttributeEnd" />
+    </LinearLayout>
+</ScrollView>

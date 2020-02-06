@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="@dimen/icon_size"
+    android:height="@dimen/icon_size"
+    android:viewportWidth="100"
+    android:viewportHeight="100"
+    >
+
+    <group
+        android:name="rotation_group"
+        android:pivotX="50.0"
+        android:pivotY="50.0"
+        >
+
+        <path
+            android:name="left_half"
+            android:fillColor="@color/transparent"
+            android:pathData="M50,10 a40,40 0 0 1 0,80"
+            android:strokeWidth="5"
+            >
+
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startColor="@color/colorPrimaryLight"
+                    android:startX="50"
+                    android:startY="10"
+                    android:endColor="@color/colorPrimary"
+                    android:endX="50"
+                    android:endY="40"
+                    android:type="linear"
+                    />
+            </aapt:attr>
+        </path>
+
+        <path
+            android:name="right_half"
+            android:fillColor="@color/transparent"
+            android:pathData="M50,10 a40,40 0 0 0 0,80"
+            android:strokeWidth="5"
+            >
+
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:startColor="@color/colorPrimaryLight"
+                    android:startX="50"
+                    android:startY="10"
+                    android:endColor="#00FFFFFF"
+                    android:endX="50"
+                    android:endY="40"
+                    android:type="linear"
+                    />
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

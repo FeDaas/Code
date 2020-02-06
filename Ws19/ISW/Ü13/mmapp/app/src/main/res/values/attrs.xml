@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DateSelectionView">
+        <attr name="errorEnable" format="boolean"/>
+        <attr name="editEnable" format="boolean"/>
+        <attr name="errorText" format="string"/>
+        <attr name="dateFormat" format="string"/>
+        <attr name="date" format="string"/>
+        <attr name="minDate" format="string"/>
+        <attr name="maxDate" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomRatingBar">
+        <attr name="stars" format="integer" />
+        <attr name="starSize" format="dimension" />
+        <attr name="starActiveColor" format="color" />
+        <attr name="isIndicator" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EAEAEA"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text=""
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <ImageView
+            style="@style/PortrayableImageLarge"
+            android:id="@+id/image"
+            android:contentDescription="@string/list_item_portrayable_image"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                style="@style/HorizontalDetailAttributeHeader"
+                android:id="@+id/birth_name_header"
+                android:layout_width="140dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/performer_birthName"
+                />
+
+            <View
+                style="@style/HorizontalHeaderDivider"
+                android:id="@+id/birth_name_header_divider"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                />
+
+            <TextView
+                android:id="@+id/birth_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:paddingStart="@dimen/default_padding"
+                android:paddingEnd="@dimen/default_padding"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                style="@style/HorizontalDetailAttributeHeader"
+                android:id="@+id/date_of_birth_header"
+                android:layout_width="140dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/performer_dateOfBirth"
+                />
+
+            <View
+                style="@style/HorizontalHeaderDivider"
+                android:id="@+id/date_of_birth_divider"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                />
+
+            <TextView
+                android:id="@+id/date_of_birth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:paddingStart="@dimen/default_padding"
+                android:paddingEnd="@dimen/default_padding"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/biography_header"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/performer_biography"
+            android:layout_marginTop="@dimen/default_margin"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            android:id="@+id/biography"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="start|top"
+            android:lines="8"
+            android:maxLines="8"
+            android:padding="@dimen/default_padding"
+            android:scrollbars="vertical"
+            android:textSize="18sp"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+        <TextView
+            style="@style/DetailAttributeHeader"
+            android:id="@+id/occupations_header"
+            android:text="@string/performer_occupations"
+            />
+
+        <View style="@style/HeaderDivider" />
+
+        <TextView
+            style="@style/DetailStringList"
+            android:id="@+id/occupations"
+            />
+
+        <View style="@style/AttributeEnd" />
+
+    </LinearLayout>
+
+</ScrollView>

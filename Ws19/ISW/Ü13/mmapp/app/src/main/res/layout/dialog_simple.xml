@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_border_view"
+    >
+
+    <TextView
+        style="@style/DetailAttributeHeader"
+        android:id="@+id/dialog_title"
+        android:text="@string/dialog_title"
+        />
+
+    <View style="@style/HeaderDivider" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:textSize="18sp"
+        android:padding="@dimen/half_padding"
+        android:text="@string/dialog_message"
+        android:background="@color/white"
+        />
+
+    <View
+        style="@style/AttributeEnd"
+        android:layout_marginBottom="0dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:padding="@dimen/half_padding"
+        android:background="@color/white"
+        >
+        <Button
+            style="@style/FlatButton"
+            android:id="@+id/negative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_margin="0dp"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimaryLight"
+            android:text="@string/no"
+            />
+
+        <Button
+            style="@style/FlatButton"
+            android:id="@+id/positive_button"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_margin="0dp"
+            android:background="@color/white"
+            android:textColor="@color/colorPrimaryLight"
+            android:text="@string/yes"
+            />
+    </LinearLayout>
+</LinearLayout>

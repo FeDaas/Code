@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/icon_size"
+    android:height="@dimen/icon_size"
+    android:viewportWidth="100"
+    android:viewportHeight="100"
+    >
+    <path
+        android:strokeColor="@color/icon_disabled_fill"
+        android:strokeWidth="3"
+        android:pathData="M50,15 a30,30 0 0 1 0,70
+                          M50,15 a30,30 0 0 0 0,70
+                          M50,15 a15,30 0 0 1 0,70
+                          M50,15 a15,30 0 0 0 0,70
+                          M25,25 a15,4 0 0 0 50,0
+                          M25,75 a15,4 0 0 1 50,0
+                          M15,50 h70
+                         "
+        />
+
+    <path
+        android:strokeColor="@color/dark_red"
+        android:strokeWidth="2"
+        android:pathData="M70,70 l10,10z M70,80 l10,-10z"
+        />
+</vector>

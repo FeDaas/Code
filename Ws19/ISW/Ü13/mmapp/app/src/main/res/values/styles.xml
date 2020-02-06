@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TransperantToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="HeaderDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/half_padding</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="HorizontalHeaderDivider" parent="HeaderDivider">
+        <item name="android:layout_width">@dimen/half_padding</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="AttributeEnd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">@dimen/default_margin</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="LightEditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryLight</item>
+        <item name="android:textColorHighlight">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryLight</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:background">@color/white</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="DateSpinner">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="colorControlNormal">@color/colorPrimaryLight</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="LightDatePicker">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:datePickerMode">calendar</item>
+
+        <item name="android:headerBackground">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="DetailAttributeHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/default_padding</item>
+        <item name="android:paddingEnd">@dimen/default_padding</item>
+    </style>
+
+    <style name="HorizontalDetailAttributeHeader" parent="DetailAttributeHeader">
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="DetailStringList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start|top</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:lines">4</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PortrayableImage">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/background_border_image</item>
+    </style>
+
+    <style name="PortrayableImageSmall" parent="PortrayableImage">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:src">@drawable/default_image_small</item>
+    </style>
+
+    <style name="PortrayableImageMedium" parent="PortrayableImage">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:src">@drawable/default_image_medium</item>
+    </style>
+
+    <style name="PortrayableImageLarge" parent="PortrayableImage">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">225dp</item>
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/double_margin</item>
+        <item name="android:layout_marginEnd">@dimen/default_margin</item>
+        <item name="android:src">@drawable/default_image_large</item>
+    </style>
+
+    <style name="FlatButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+
+    <style name="GrayInfoText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/icon_disabled_fill</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">@dimen/default_padding</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

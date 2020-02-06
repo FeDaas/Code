@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/near_white"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/LightEditText"
+        android:id="@+id/edit_movie_title"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/default_padding"
+        app:errorEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/movie_title_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/movie_title"
+            android:inputType="textPersonName"
+            android:text=""
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        style="@style/AttributeEnd"
+        android:layout_marginBottom="0dp"
+        />
+
+    <ScrollView
+        android:id="@+id/attributes_container_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.detail.MovieDetailEditActivity"
+        android:background="@color/near_white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:orientation="vertical"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/top_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/default_padding"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <ImageView
+                    android:id="@+id/edit_image"
+                    android:layout_width="150dp"
+                    android:layout_height="225dp"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginTop="@dimen/double_margin"
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/list_item_portrayable_image"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/default_image_large"
+                    />
+
+                <ImageButton
+                    android:id="@+id/reset_image_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dark_red"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/ic_delete_enabled"
+                    android:contentDescription="@string/remove_image_button"
+
+                    app:layout_constraintEnd_toEndOf="@+id/edit_image"
+                    app:layout_constraintStart_toStartOf="@+id/edit_image"
+                    app:layout_constraintTop_toBottomOf="@+id/edit_image"
+                    />
+
+                <TextView
+                    style="@style/DetailAttributeHeader"
+                    android:id="@+id/watch_date_header"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginTop="@dimen/double_margin"
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:text="@string/movie_watchDate"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/edit_image"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <TextView
+                    android:id="@+id/due_date_header"
+                    style="@style/DetailAttributeHeader"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:text="@string/movie_dueDate"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/edit_image"
+                    app:layout_constraintTop_toBottomOf="@+id/edit_watch_date" />
+
+                <View
+                    style="@style/HeaderDivider"
+                    android:id="@+id/watch_date_divider"
+                    android:layout_width="0dp"
+
+                    app:layout_constraintTop_toBottomOf="@id/watch_date_header"
+                    app:layout_constraintStart_toStartOf="@id/watch_date_header"
+                    app:layout_constraintEnd_toEndOf="@id/watch_date_header"
+                    />
+
+                <View
+                    android:id="@+id/due_date_divider"
+                    style="@style/HeaderDivider"
+                    android:layout_width="0dp"
+
+                    android:layout_height="4dp"
+                    app:layout_constraintEnd_toEndOf="@+id/due_date_header"
+                    app:layout_constraintStart_toStartOf="@+id/due_date_header"
+                    app:layout_constraintTop_toBottomOf="@+id/due_date_header" />
+
+                <de.moviemanager.ui.view.DateSelectionView
+                    android:id="@+id/edit_due_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+
+                    app:errorEnable="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/edit_image"
+                    app:layout_constraintTop_toBottomOf="@+id/due_date_header"
+                    app:maxDate="today" />
+
+                <de.moviemanager.ui.view.DateSelectionView
+                    android:id="@+id/edit_watch_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:errorEnable="false"
+                    app:maxDate="today"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/edit_image"
+                    app:layout_constraintTop_toBottomOf="@+id/watch_date_divider"
+                    />
+
+                <TextView
+                    style="@style/HorizontalDetailAttributeHeader"
+                    android:id="@+id/runtime_header"
+                    android:layout_width="0dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="end|center_vertical"
+                    android:text="@string/movie_runtime"
+                    android:textSize="20sp"
+
+                    app:layout_constraintEnd_toEndOf="@+id/reset_image_button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/reset_image_button"
+                    />
+
+                <View
+                    style="@style/HorizontalHeaderDivider"
+                    android:id="@+id/runtime_header_divider"
+                    android:layout_height="0dp"
+
+                    app:layout_constraintStart_toEndOf="@id/runtime_header"
+                    app:layout_constraintTop_toTopOf="@id/runtime_header"
+                    app:layout_constraintBottom_toBottomOf="@id/runtime_header"
+                    />
+
+                <EditText
+                    style="@style/LightEditText"
+                    android:id="@+id/edit_runtime"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:padding="@dimen/default_padding"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:hint="@string/sample_runtime"
+                    android:importantForAutofill="no"
+
+                    app:layout_constraintBottom_toBottomOf="@id/runtime_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/runtime_header_divider"
+                    app:layout_constraintTop_toTopOf="@id/runtime_header"
+                    />
+
+                <View
+                    style="@style/AttributeEnd"
+                    android:id="@+id/runtime_end"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginEnd="@dimen/default_margin"
+
+                    app:layout_constraintStart_toStartOf="@id/runtime_header"
+                    app:layout_constraintEnd_toEndOf="@id/edit_runtime"
+                    app:layout_constraintTop_toBottomOf="@id/edit_runtime"
+                    />
+
+                <TextView
+                    style="@style/HorizontalDetailAttributeHeader"
+                    android:id="@+id/rating_header"
+                    android:layout_width="0dp"
+                    android:gravity="end|center_vertical"
+                    android:text="@string/movie_rating"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/reset_image_button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/runtime_end"
+                    />
+
+                <View
+                    style="@style/HorizontalHeaderDivider"
+                    android:id="@+id/rating_header_divider"
+                    android:layout_height="0dp"
+
+                    app:layout_constraintStart_toEndOf="@id/rating_header"
+                    app:layout_constraintTop_toTopOf="@id/rating_header"
+                    app:layout_constraintBottom_toBottomOf="@id/rating_header"
+                    />
+
+                <de.moviemanager.ui.view.CustomRatingBar
+                    android:id="@+id/edit_rating"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+
+                    app:starSize="38dp"
+                    app:stars="5"
+
+                    app:layout_constraintBottom_toBottomOf="@id/rating_header"
+                    app:layout_constraintStart_toEndOf="@id/rating_header_divider"
+                    app:layout_constraintTop_toTopOf="@id/rating_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <View
+                    style="@style/AttributeEnd"
+                    android:layout_width="0dp"
+
+                    app:layout_constraintStart_toStartOf="@id/rating_header"
+                    app:layout_constraintEnd_toEndOf="@id/edit_rating"
+                    app:layout_constraintTop_toBottomOf="@id/rating_header"
+                    />
+
+                <ImageView
+                    android:id="@+id/due_banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/edit_image"
+                    app:layout_constraintTop_toTopOf="@+id/edit_image"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/description_header"
+                android:text="@string/movie_description"
+                android:layout_marginTop="0dp"
+                />
+
+            <View style="@style/HeaderDivider"/>
+
+            <EditText
+                style="@style/LightEditText"
+                android:id="@+id/edit_description"
+                android:padding="@dimen/default_padding"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:minLines="4"
+                android:maxLines="8"
+                android:hint="@string/enter_description"
+                android:importantForAutofill="no"
+                />
+
+            <View style="@style/AttributeEnd"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    style="@style/DetailAttributeHeader"
+                    android:id="@+id/linked_performers_header"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/linked_performers"
+
+                    app:layout_constraintEnd_toStartOf="@id/vertical_guideline_end"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/vertical_guideline_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintGuide_end="@dimen/base_square"
+                    android:orientation="vertical"
+                    />
+
+                <ImageButton
+                    style="@style/FlatButton"
+                    android:id="@+id/link_performer_button"
+                    android:layout_width="@dimen/base_square"
+                    android:layout_height="@dimen/base_square"
+                    android:src="@drawable/ic_link_button"
+                    android:background="@color/colorAccent"
+                    android:layout_margin="0dp"
+                    android:contentDescription="@string/movie_link_btn_description"
+
+                    app:layout_constraintStart_toEndOf="@id/vertical_guideline_end"
+                    app:layout_constraintBottom_toBottomOf="@id/linked_performers_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/linked_performers_header"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View style="@style/HeaderDivider"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/linked_performers"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linked_portrayables_height"
+                android:background="@color/white"
+                android:orientation="vertical"
+                />
+
+            <View style="@style/AttributeEnd"/>
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/languages_header"
+                android:text="@string/movie_languages"
+                />
+
+            <View style="@style/HeaderDivider"/>
+
+            <EditText
+                style="@style/LightEditText"
+                android:id="@+id/edit_languages"
+                android:padding="@dimen/default_padding"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="3"
+                android:background="@color/white"
+                android:hint="@string/movie_enter_languages"
+                android:importantForAutofill="no"
+                />
+
+            <View style="@style/AttributeEnd"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    style="@style/DetailAttributeHeader"
+                    android:id="@+id/releases_header"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:text="@string/movie_releases"
+
+                    app:layout_constraintEnd_toStartOf="@id/release_vertical_guideline_end"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/release_vertical_guideline_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintGuide_end="@dimen/base_square"
+                    android:orientation="vertical"
+                    />
+
+                <ImageButton
+                    style="@style/FlatButton"
+                    android:id="@+id/add_release_button"
+                    android:layout_width="@dimen/base_square"
+                    android:layout_height="@dimen/base_square"
+                    android:src="@drawable/ic_add_button"
+                    android:background="@color/colorAccent"
+                    android:layout_margin="0dp"
+                    android:contentDescription="@string/movie_add_release_description"
+
+                    app:layout_constraintBottom_toBottomOf="@id/releases_header"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/release_vertical_guideline_end"
+                    app:layout_constraintTop_toTopOf="@id/releases_header" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View style="@style/HeaderDivider"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/releases"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/white"
+                />
+
+            <View style="@style/AttributeEnd"/>
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/production_locations_header"
+                android:text="@string/movie_productionLocations"
+                />
+
+            <View style="@style/HeaderDivider"/>
+
+            <EditText
+                style="@style/LightEditText"
+                android:id="@+id/edit_production_locations"
+                android:padding="@dimen/default_padding"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:hint="@string/movie_enter_production_locations"
+                android:minLines="3"
+                android:maxLines="3"
+                android:importantForAutofill="no"
+                />
+
+            <View style="@style/AttributeEnd"/>
+
+            <TextView
+                style="@style/DetailAttributeHeader"
+                android:id="@+id/filming_locations_header"
+                android:text="@string/movie_filmingLocations"
+                />
+
+            <View style="@style/HeaderDivider"/>
+
+            <EditText
+                style="@style/LightEditText"
+                android:id="@+id/edit_filming_locations"
+                android:ems="10"
+                android:hint="@string/movie_enter_filming_locations"
+                android:padding="@dimen/default_padding"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="3"
+                android:importantForAutofill="no"
+                />
+
+            <View style="@style/AttributeEnd"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

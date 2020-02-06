@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/icon_size"
+    android:height="@dimen/icon_size"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <path
+        android:name="lens"
+        android:fillColor="@color/transparent"
+        android:strokeColor="@color/transparent"
+        android:strokeWidth="7"
+        android:pathData="M40,10
+        a30,30 0 0 1 0,60
+        a30,30 0 0 1 0,-60z
+        "/>
+
+    <path
+        android:name="lens"
+        android:fillColor="@color/transparent"
+        android:strokeColor="@color/icon_disabled_fill"
+        android:strokeWidth="5"
+        android:pathData="M40,10
+        a30,30 0 0 1 0,60
+        a30,30 0 0 1 0,-60z
+        "/>
+
+    <path
+        android:name="lens"
+        android:fillColor="@color/icon_disabled_fill"
+        android:strokeColor="@color/transparent"
+        android:strokeWidth="1"
+        android:pathData="M60,70 l10,-10 l40,40 l-10,10z
+        "/>
+
+    <path
+        android:fillColor="@color/icon_disabled_fill"
+        android:strokeColor="@color/transparent"
+        android:strokeWidth="1"
+        android:pathData="M35,20 h10 l-2.5,30 h-5z
+        M37.5,55 h5v5h-5z"
+        />
+
+</vector>

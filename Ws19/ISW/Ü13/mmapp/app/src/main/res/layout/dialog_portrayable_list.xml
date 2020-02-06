@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    >
+
+    <TextView
+        style="@style/DetailAttributeHeader"
+        android:id="@+id/dialog_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:paddingTop="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding"
+        android:layout_marginTop="0dp"
+        android:text="@string/dialog_title"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryLight"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/dialog_message"
+        android:padding="@dimen/default_padding"
+        android:maxLines="8"
+        android:textColor="@color/light_gray"
+        android:textSize="18sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title" />
+
+    <View
+        style="@style/AttributeEnd"
+        android:id="@+id/message_divider"
+
+        app:layout_constraintStart_toStartOf="@id/dialog_message"
+        app:layout_constraintEnd_toEndOf="@id/dialog_message"
+        app:layout_constraintTop_toBottomOf="@id/dialog_message"
+        />
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/message_divider" />
+
+    <View
+        style="@style/HeaderDivider"
+        android:id="@+id/search_bar_divider"
+        android:layout_width="300dp"
+        android:minWidth="300dp"
+
+        app:layout_constraintTop_toBottomOf="@id/search_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/portrayables"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/linked_portrayables_height"
+        android:background="@color/white"
+        android:padding="@dimen/default_padding"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_bar_divider"
+        />
+
+    <View
+        style="@style/AttributeEnd"
+        android:id="@+id/portrayables_divider"
+        android:layout_marginBottom="0dp"
+
+        app:layout_constraintStart_toStartOf="@id/portrayables"
+        app:layout_constraintEnd_toEndOf="@id/portrayables"
+        app:layout_constraintTop_toBottomOf="@id/portrayables"
+        />
+
+    <include
+        layout="@layout/dialog_two_button_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/portrayables_divider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_width="@dimen/base_square"
+        android:layout_height="@dimen/base_square"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:background="@drawable/bg_circular_btn"
+        android:contentDescription="@string/add_description"
+
+        app:srcCompat="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@+id/portrayables"
+        app:layout_constraintEnd_toEndOf="@id/portrayables"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
