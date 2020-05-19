@@ -37,11 +37,11 @@ def test(k):
         t1C = n/2*t1C
         t2C = n/2*t2C
 
-        if (t1 == t1C):
+        if (t1 > t1C-0.0000000000001 and t1 < t1C+0.0000000000001):
             test1 = "true"
         else:
             test1 = "false"
-        if (t2 == t2C):
+        if (t2 > t2C-0.0000000000001 and t2 < t2C+0.0000000000001):
             test2 = "true"
         else:
             test2 = "false"
