@@ -88,5 +88,7 @@ keine subtraktion mehr.
 Am Anfang bekommt man eine Stelle pro verdopplung. Danach verdoppelt sich in
 etwa die Anzahl an verdoplungen um eine weitere Stelle von Pi zu erreichen
 
-
+d)
+ wenn man eine Varianz von 0,1e-¹³ übersieht schlägt der Test bei 256 Kanten fehl
+ 
 '''
