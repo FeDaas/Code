@@ -1,0 +1,9 @@
+1.
+select name FROM ARTIST where (name LIKE '%rock%' or name LIKE '%Rock%') AND type = 'Person'
+115
+
+2.
+select REPLACE(ARTIST.name, ', The', '') FROM ARTIST JOIN COUNTRY ON (ARTIST.origin = COUNTRY.id) where COUNTRY.name = 'Japan' AND ARTIST.type = 'Group' AND ARTIST.name LIKE '%, The%
+78
+
+3.

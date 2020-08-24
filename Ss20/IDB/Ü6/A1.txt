@@ -1,0 +1,43 @@
+CREATE table Family_Tree (
+	id INT,
+	name VARCHAR,
+	father INT,
+	mother INT)
+
+A2
+
+1.
+(i)
+
+{(a.name,a.id) |
+a ∈ ARTIST ∧ c ∈ ARTIST_CREDIT ∧ a.id  = c.artist
+∧ r ∈ RELEASE ∧ c.tracklist = r.tracklist
+∧ a.type = 'Person'
+∧ r.year < 1970}
+
+(ii)  = 252
+SELECT
+	A.name, A.id
+FROM
+	ARTIST A
+WHERE
+	type = 'Person'
+AND EXISTS
+(
+	SELECT
+		*
+	FROM
+		RELEASE R JOIN ARTIST_CREDIT C ON (R.tracklist = C.tracklist)
+	Where
+		C.artist = A.id
+	AND
+		year < 1970
+)
+
+(iii)
+SELECT DISTINCT
+	A.name, A.id
+FROM
+	ARTIST A JOIN ARTIST_CREDIT C ON(A.id = C.artist) JOIN RELEASE R ON (C.tracklist = R.tracklist)
+Where
+	A.type = 'Person' AND R.year < 1970
